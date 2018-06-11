@@ -1,0 +1,48 @@
+{
+  "name": "mdslife_doctor_app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "android-release": "cd android && ./gradlew assembleRelease",
+    "android-release-manual-install": "cd android/app/build/outputs/apk && adb install app-release.apk",
+    "android-debug-manual-install": "cd android/app/build/outputs/apk && adb install app-debug.apk",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android"
+  },
+  "dependencies": {
+    "lodash": "4.17.4",
+    "ramda": "0.23.0",
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.0",
+    "react-native-agora": "1.0.7",
+    "react-native-deprecated-custom-components": "0.1.0",
+    "react-native-modalbox": "1.3.9",
+    "react-native-root-siblings": "1.2.1",
+    "react-native-root-toast": "1.1.2",
+    "react-native-smart-splash-screen": "2.3.3",
+    "react-native-spinkit": "1.0.2",
+    "react-native-tab-navigator": "0.3.3",
+    "react-native-vector-icons": "4.1.1",
+    "react-native-wechat": "1.9.2",
+    "react-native-x5": "https://github.com/DBshaoYan/react-native-x5.git",
+    "react-redux": "5.0.5",
+    "redux": "3.6.0",
+    "redux-actions": "2.0.3",
+    "redux-logger": "3.0.6",
+    "redux-persist": "4.8.0",
+    "redux-thunk": "2.2.0",
+    "seamless-immutable": "7.1.2"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-react-native": "1.9.2",
+    "jest": "20.0.3",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

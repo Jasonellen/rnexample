@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+android/.gradle/
+android/.idea/
+android/app/app-release.apk
+android/app/build/
+android/app/libs/
+android/build/
+app/Test/
+ios/build/
+ios/mdslife_doctor_app.xcodeproj/xcuserdata/DB.xcuserdatad/xcdebugger/
+node_modules/

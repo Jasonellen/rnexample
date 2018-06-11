@@ -1,0 +1,14 @@
+rootProject.name = 'mdslife_doctor_app'
+include ':react-native-agora'
+project(':react-native-agora').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-agora/android')
+include ':react-native-x5'
+project(':react-native-x5').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-x5/android')
+include ':react-native-wechat'
+project(':react-native-wechat').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-wechat/android')
+include ':react-native-spinkit'
+project(':react-native-spinkit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-spinkit/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-smart-splash-screen'
+project(':react-native-smart-splash-screen').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-smart-splash-screen/android')
+include ':app'
